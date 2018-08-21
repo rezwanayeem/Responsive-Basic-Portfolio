@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<style>
+    @viewport {
+        zoom :1.0
+        width: extend-to-zoom;
+    }
+    @-ms-viewport viewport{
+    width: extend-to-zoom;  
+    zoom :1.0 
+    }
+    
+</style>
+ <head>
+          <meta charset= "utf-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+          <link rel="stylesheet" href="C:\Users\Moyna\Responsive-Basic-Portfolio\portfolio.style.css"/>
+          <link rel= "stylesheet" href="http://www.w3schools.com/lib/w3.css"/>
+    
+</head>
+
+<style>
+     
+{
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  width:40%
+}
+
+.topnav a {
+  float: left;
+  color: black
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+    overflow: hidden;
+    background-color: gray;
+	width:30%	
+	
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+	text-decoration: none;
+}
+
+li  (.active){
+    background-color:light gray;
+	
+	
+}
+
+.active {
+    background-color:green;
+	
+}
+
+#page-wrap {
+     width: 800px;
+     margin: 0 auto;
+    }
+.using-marg{
+    margin-left: auto;
+    margin-right: auto;
+   display:block;
+  
+}
+
+.using-flex{
+  display:flex;
+  justify-content:center;
+}
+
+.using-grid{
+  display:grid;
+  justify-content:center;
+} 
+div.gallery {
+    border: 0px solid #ccc;
+}
+
+div.gallery:hover {
+    border: 0px
+}
+
+div.gallery img {
+    width: 80%;
+    height:50%;
+}
+
+div.desc {
+    margin:25px
+    padding: 0px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 100px) {
+    .responsive {
+        width: 20%;
+        margin: 10px 0;
+    }
+}
+
+@media only screen and (max-width: 100px) {
+    .responsive {
+        width: 20%;
+    }
+
+</style>
+</head>
+
+<body>
+
+ <div class="topnav"id="page-wrap">
+        <!-- all websites HTML here -->>
+  <li style="float:left"><a class="active"href="#about">Your Name</a></li>
+  <li style="float:right"><a href="#portfolio">Portfolio</a></li>
+  <li style="float:right"><a href="#contact">Contact</a></li>
+  <li style="float:right"><a href="#about">About</a></li>
+  </div>
+              
+
+<h2>Portfolio</h2>
+
+<div class="responsive"id="page-wrap">
+        <!-- all websites HTML here -->
+  <div class="gallery">
+    <a target="_blank" href="Technology.jpg">
+      <img src="assets/images/technology.jpg.jpg" alt="IT world" width="200" height="150">
+    </a>
+    <div class="desc">Coding</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="assets/images/photography.jpg.jpg">
+      <img src="assets/images/photography.jpg.jpg" alt="landscape" width="600" height="400">
+    </a>
+    <div class="desc">Portrait/Landscape</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="music.jpg">
+      <img src="assets/images/music.jpg.jpg" alt="My heart will go on" width="600" height="400">
+    </a>
+    <div class="desc">Song</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="tour.jpg">
+      <img src="assets/images/tour.jpg.jpg" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc">See the whole world</div>
+  </div>
+</div>
+
+</body>
+</html>
